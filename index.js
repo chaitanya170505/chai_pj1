@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     const expression = display.textContent;
                     if (expression) {
                         try {
-                            const result = eval(expression); // Using eval for simplicity, but be cautious in real-world applications
+                            const result = eval(expression); 
                             display.textContent = result;
                         } catch (error) {
                             display.textContent = 'Error';
